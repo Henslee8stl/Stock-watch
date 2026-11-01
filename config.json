@@ -1,0 +1,35 @@
+{
+  "interval_minutes": 10,
+  "zip": "",
+  "radius_miles": 50,
+  "ntfy_topic": "",
+  "bestbuy_api_key": "",
+  "bestbuy_store_ids": [],
+  "items": [
+    {
+      "name": "Switch 2 Zelda 40th Anniversary Edition (Target)",
+      "retailer": "target",
+      "tcin": "1013322047",
+      "url": "https://www.target.com/p/nintendo-8482-switch-2-the-legend-of-zelda-40th-anniversary-edition-console-system/-/A-1013322047",
+      "max_price": 550
+    },
+    {
+      "name": "Switch 2 Zelda 40th Anniversary Edition (Walmart)",
+      "retailer": "walmart",
+      "url": "https://www.walmart.com/ip/Nintendo-Switch-2-The-Legend-of-Zelda-40th-Anniversary-Edition/21002656445",
+      "max_price": 550
+    },
+    {
+      "name": "Switch 2 Zelda 40th Anniversary Edition (Best Buy)",
+      "retailer": "bestbuy",
+      "sku": "6691841",
+      "url": "https://www.bestbuy.com/product/switch-2-the-legend-of-zelda-40th-anniversary-edition/J7GSL57HTY",
+      "max_price": 550
+    },
+    {
+      "name": "Switch 2 Zelda 40th Anniversary Edition (Nintendo Store)",
+      "retailer": "nintendo",
+      "url": "https://www.nintendo.com/us/store/products/nintendo-switch-2-the-legend-of-zelda-40th-anniversary-edition-121642/"
+    }
+  ]
+}
