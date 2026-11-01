@@ -102,7 +102,7 @@ def check_target(item, cfg):
     """Unofficial target.com (RedSky) endpoints. Item needs a `tcin` (the A-######## number in the URL)."""
     zip_code = cfg["zip"]
     stores = get_json(f"{TARGET_API}/nearby_stores_v1", key=TARGET_KEY, place=zip_code,
-                      limit=cfg.get("max_stores", 50), within=cfg.get("radius_miles", 25))
+                      limit=cfg.get("max_stores", 20), within=cfg.get("radius_miles", 25))
     store_ids = [s["store_id"] for s in stores["data"]["nearby_stores"]["stores"]]
     where, price = [], None
     for i, sid in enumerate(store_ids):
